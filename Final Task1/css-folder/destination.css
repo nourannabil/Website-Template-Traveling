@@ -1,0 +1,76 @@
+﻿body {
+    background-color: #f9fafb !important;
+}
+
+/*  Satrt heading destination  */
+#destination {
+    background-image: url(/images/head\ destination.jfif);
+    background-size: cover;
+    width: 100%;
+    opacity: .9;
+}
+
+#destination {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#destination .title-head a {
+    color: white !important;
+}
+
+#destination .title-para {
+    color: #fffa00 !important;
+    top: 44%;
+    font-size: 25px;
+}
+
+@media (max-width: 767px) {
+    #destination .title-head {
+        font-size: 45px;
+    }
+}
+
+/* End heading destination  */
+
+/* start card */
+
+.card-body h5:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card input {
+    position: absolute;
+    width: 100%;
+    bottom: 63%;
+    background-color: #00000070;
+    color: white;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.card input:hover {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--yellow-color);
+}
+
+.main-btn {
+    font-size: 17px !important;
+    padding: 1rem 3rem !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+
+.card-destination form {
+    border: 1px solid black;
+    height: fit-content;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background: #007bff05;
+}
+
+/* end card */
